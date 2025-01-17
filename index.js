@@ -10,27 +10,6 @@ const courseRouter = require("./router/course")
 require("dotenv").config()
 const {JWT_USER_PASSWORD} = require("./config")
 
-// // CREATING JWT TOKEN
-// const JWT_SECRET = "bhumika123"
-
-// // AUTH MIDDLEWARE
-// // function userAuth(req,res,next){
-// //     const token = req.headers.token
-// //     const decodedData = jwt.verify(token,JWT_SECRET)
-// //     if(decodedData.username){
-// //         req.username = decodedData.username
-// //     }
-// //     else{
-// //         res.json({
-// //             errorMesg: "wrong token"
-// //         })
-// //     }
-// // }
-
-
-
-
-
 // // EXPORTING ROUTERS
 
 const app = express()
